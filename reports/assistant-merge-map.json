@@ -1,0 +1,1486 @@
+[
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "calendar",
+      "rights-and-contract-library",
+      "work-title-and-asset-registry",
+      "exploitation-report-ingestion",
+      "platform-statement-normalization",
+      "gross-receipts-reconstruction",
+      "advance-and-recoupment-ledger",
+      "cross-collateralization-review",
+      "licensee-claim-and-response",
+      "catalog-licensee-and-channel-analytics",
+      "recording-metadata-registry",
+      "isrc-normalization",
+      "rights-ownership-mapping",
+      "airplay-usage-ingestion",
+      "featured-performer-allocation",
+      "non-featured-performer-allocation",
+      "unmatched-usage-claim",
+      "society-query-workflow",
+      "recording-territory-analytics",
+      "aibook-publishing-pipeline",
+      "api-ai-generate-dialogue",
+      "api-ai-generate-art-suggestion",
+      "api-ai-generate-plot-twist",
+      "api-ai-generate-scene",
+      "api-ai-generate-villain",
+      "missing-extract-key-points-generate-thumbnail-suggest-hashta",
+      "repurpose",
+      "performance",
+      "social",
+      "scripts",
+      "ai-driven-content-brief-generation",
+      "all-content-routes-lack-dedicated-ai-generation-endpoints-mi",
+      "cross-platform-published-content-analytics-aggregation",
+      "catalog-valuation",
+      "rights-clearance",
+      "metadata-cleaner",
+      "catalog-acquisition-advisor",
+      "list-dedupe",
+      "batch-content-variants",
+      "dynamic-content-blocks",
+      "realtime-subscriber-intel",
+      "generate",
+      "subject-lines",
+      "tone",
+      "improve",
+      "correction",
+      "embargo",
+      "a11y",
+      "editing",
+      "shoot-plan-optimize",
+      "gallery-organization-ai",
+      "testimonials-without-review",
+      "analytics-without-audience",
+      "limited-analytics-listener-growth-retention",
+      "topics",
+      "intros",
+      "questions",
+      "title-variants",
+      "content-calendar",
+      "episode-topic-cluster",
+      "cross-promo-finder",
+      "listener-growth-strategy",
+      "multiplatform-publishing",
+      "advanced-tools",
+      "episode-pacing-review",
+      "script-generator",
+      "topic-suggestions",
+      "audience-segmentation",
+      "limited-audience-analytics-depth",
+      "chat",
+      "pipeline",
+      "deck",
+      "slide",
+      "chart",
+      "export",
+      "collaborate",
+      "audienceaware-adaptation-ai",
+      "presentation-analytics-viewer-engagement",
+      "ai-surface-area-is-modest-6-endpoints-relative",
+      "generate-prompt",
+      "generate-scene",
+      "collaboration-layer-with-timecode-anchored-review-comments",
+      "ai-voice-over-synthesis-endpoint",
+      "ai-coverage-is-comprehensive-for-the-domain",
+      "personas",
+      "comments",
+      "competitors",
+      "tsv-reports-0-ai-but-routes-suggest-under-reported",
+      "performance-analytics-dashboard",
+      "reviews",
+      "avatars",
+      "sports-highlights",
+      "broll-suggestions",
+      "interview-questions",
+      "generate-script",
+      "enhance-review",
+      "suggest-avatar",
+      "generate-metadata",
+      "generate-cta",
+      "generate-package",
+      "generate-variations",
+      "auto-editing-assistant-suggesting-cuts-pacing-adjustments-retakes",
+      "ai-is-actually-substantial-18-endpoints-tsv-claim",
+      "photoapp-eakarsu",
+      "auto-subtitle",
+      "scene-transitions",
+      "platform-export-optimizer",
+      "usage-analytics",
+      "review-approval"
+    ],
+    "ai": true,
+    "representativeId": "calendar",
+    "description": "One assistant for 109 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "calendar",
+        "title": "Calendar",
+        "originalPath": "/features/calendar"
+      },
+      {
+        "id": "rights-and-contract-library",
+        "title": "Rights and contract library",
+        "originalPath": "/features/rights-and-contract-library"
+      },
+      {
+        "id": "work-title-and-asset-registry",
+        "title": "Work title and asset registry",
+        "originalPath": "/features/work-title-and-asset-registry"
+      },
+      {
+        "id": "exploitation-report-ingestion",
+        "title": "Exploitation report ingestion",
+        "originalPath": "/features/exploitation-report-ingestion"
+      },
+      {
+        "id": "platform-statement-normalization",
+        "title": "Platform statement normalization",
+        "originalPath": "/features/platform-statement-normalization"
+      },
+      {
+        "id": "gross-receipts-reconstruction",
+        "title": "Gross receipts reconstruction",
+        "originalPath": "/features/gross-receipts-reconstruction"
+      },
+      {
+        "id": "advance-and-recoupment-ledger",
+        "title": "Advance and recoupment ledger",
+        "originalPath": "/features/advance-and-recoupment-ledger"
+      },
+      {
+        "id": "cross-collateralization-review",
+        "title": "Cross-collateralization review",
+        "originalPath": "/features/cross-collateralization-review"
+      },
+      {
+        "id": "licensee-claim-and-response",
+        "title": "Licensee claim and response",
+        "originalPath": "/features/licensee-claim-and-response"
+      },
+      {
+        "id": "catalog-licensee-and-channel-analytics",
+        "title": "Catalog licensee and channel analytics",
+        "originalPath": "/features/catalog-licensee-and-channel-analytics"
+      },
+      {
+        "id": "recording-metadata-registry",
+        "title": "Recording metadata registry",
+        "originalPath": "/features/recording-metadata-registry"
+      },
+      {
+        "id": "isrc-normalization",
+        "title": "ISRC normalization",
+        "originalPath": "/features/isrc-normalization"
+      },
+      {
+        "id": "rights-ownership-mapping",
+        "title": "Rights ownership mapping",
+        "originalPath": "/features/rights-ownership-mapping"
+      },
+      {
+        "id": "airplay-usage-ingestion",
+        "title": "Airplay usage ingestion",
+        "originalPath": "/features/airplay-usage-ingestion"
+      },
+      {
+        "id": "featured-performer-allocation",
+        "title": "Featured performer allocation",
+        "originalPath": "/features/featured-performer-allocation"
+      },
+      {
+        "id": "non-featured-performer-allocation",
+        "title": "Non-featured performer allocation",
+        "originalPath": "/features/non-featured-performer-allocation"
+      },
+      {
+        "id": "unmatched-usage-claim",
+        "title": "Unmatched usage claim",
+        "originalPath": "/features/unmatched-usage-claim"
+      },
+      {
+        "id": "society-query-workflow",
+        "title": "Society query workflow",
+        "originalPath": "/features/society-query-workflow"
+      },
+      {
+        "id": "recording-territory-analytics",
+        "title": "Recording territory analytics",
+        "originalPath": "/features/recording-territory-analytics"
+      },
+      {
+        "id": "aibook-publishing-pipeline",
+        "title": "Book publishing pipeline work",
+        "originalPath": "/features/aibook-publishing-pipeline"
+      },
+      {
+        "id": "api-ai-generate-dialogue",
+        "title": "AI Dialogue Writer",
+        "originalPath": "/features/api-ai-generate-dialogue"
+      },
+      {
+        "id": "api-ai-generate-art-suggestion",
+        "title": "AI Art Advisor",
+        "originalPath": "/features/api-ai-generate-art-suggestion"
+      },
+      {
+        "id": "api-ai-generate-plot-twist",
+        "title": "AI Plot Twists",
+        "originalPath": "/features/api-ai-generate-plot-twist"
+      },
+      {
+        "id": "api-ai-generate-scene",
+        "title": "AI Scene Builder",
+        "originalPath": "/features/api-ai-generate-scene"
+      },
+      {
+        "id": "api-ai-generate-villain",
+        "title": "AI Villain Creator",
+        "originalPath": "/features/api-ai-generate-villain"
+      },
+      {
+        "id": "missing-extract-key-points-generate-thumbnail-suggest-hashta",
+        "title": "Missing extract key points generate thumbnail suggest hashta",
+        "originalPath": "/features/missing-extract-key-points-generate-thumbnail-suggest-hashta"
+      },
+      {
+        "id": "repurpose",
+        "title": "AI Repurposer",
+        "originalPath": "/features/repurpose"
+      },
+      {
+        "id": "performance",
+        "title": "Performance AI",
+        "originalPath": "/features/performance"
+      },
+      {
+        "id": "social",
+        "title": "Social Posts",
+        "originalPath": "/features/social"
+      },
+      {
+        "id": "scripts",
+        "title": "Scripts",
+        "originalPath": "/features/scripts"
+      },
+      {
+        "id": "ai-driven-content-brief-generation",
+        "title": "Driven content brief generation",
+        "originalPath": "/features/ai-driven-content-brief-generation"
+      },
+      {
+        "id": "all-content-routes-lack-dedicated-ai-generation-endpoints-mi",
+        "title": "All content routes lack dedicated ai generation endpoints mi",
+        "originalPath": "/features/all-content-routes-lack-dedicated-ai-generation-endpoints-mi"
+      },
+      {
+        "id": "cross-platform-published-content-analytics-aggregation",
+        "title": "No cross platform published content analytics aggregation",
+        "originalPath": "/features/cross-platform-published-content-analytics-aggregation"
+      },
+      {
+        "id": "catalog-valuation",
+        "title": "AI Catalog Valuation",
+        "originalPath": "/features/catalog-valuation"
+      },
+      {
+        "id": "rights-clearance",
+        "title": "AI Rights Clearance",
+        "originalPath": "/features/rights-clearance"
+      },
+      {
+        "id": "metadata-cleaner",
+        "title": "AI Metadata Cleaner",
+        "originalPath": "/features/metadata-cleaner"
+      },
+      {
+        "id": "catalog-acquisition-advisor",
+        "title": "AI Catalog Acquisition Advisor",
+        "originalPath": "/features/catalog-acquisition-advisor"
+      },
+      {
+        "id": "list-dedupe",
+        "title": "List Import Dedupe",
+        "originalPath": "/features/list-dedupe"
+      },
+      {
+        "id": "batch-content-variants",
+        "title": "Batch Content Variants",
+        "originalPath": "/features/batch-content-variants"
+      },
+      {
+        "id": "dynamic-content-blocks",
+        "title": "Dynamic Content Blocks",
+        "originalPath": "/features/dynamic-content-blocks"
+      },
+      {
+        "id": "realtime-subscriber-intel",
+        "title": "Realtime Subscriber Intel",
+        "originalPath": "/features/realtime-subscriber-intel"
+      },
+      {
+        "id": "generate",
+        "title": "Generate Content",
+        "originalPath": "/features/generate"
+      },
+      {
+        "id": "subject-lines",
+        "title": "Generate Subject Lines",
+        "originalPath": "/features/subject-lines"
+      },
+      {
+        "id": "tone",
+        "title": "Adjust Tone",
+        "originalPath": "/features/tone"
+      },
+      {
+        "id": "improve",
+        "title": "Improve Content",
+        "originalPath": "/features/improve"
+      },
+      {
+        "id": "correction",
+        "title": "Correction Suggestion",
+        "originalPath": "/features/correction"
+      },
+      {
+        "id": "embargo",
+        "title": "Embargo Management",
+        "originalPath": "/features/embargo"
+      },
+      {
+        "id": "a11y",
+        "title": "Alt Text & Captions",
+        "originalPath": "/features/a11y"
+      },
+      {
+        "id": "editing",
+        "title": "AI Editing",
+        "originalPath": "/features/editing"
+      },
+      {
+        "id": "shoot-plan-optimize",
+        "title": "Shoot Plan AI",
+        "originalPath": "/features/shoot-plan-optimize"
+      },
+      {
+        "id": "gallery-organization-ai",
+        "title": "Gallery Org AI",
+        "originalPath": "/features/gallery-organization-ai"
+      },
+      {
+        "id": "testimonials-without-review",
+        "title": "Testimonials without `/review",
+        "originalPath": "/features/testimonials-without-review"
+      },
+      {
+        "id": "analytics-without-audience",
+        "title": "Analytics without `/audience",
+        "originalPath": "/features/analytics-without-audience"
+      },
+      {
+        "id": "limited-analytics-listener-growth-retention",
+        "title": "Limited analytics (listener growth, retention)",
+        "originalPath": "/features/limited-analytics-listener-growth-retention"
+      },
+      {
+        "id": "topics",
+        "title": "Topic Suggestions",
+        "originalPath": "/features/topics"
+      },
+      {
+        "id": "intros",
+        "title": "Intros & Outros",
+        "originalPath": "/features/intros"
+      },
+      {
+        "id": "questions",
+        "title": "Interview Questions",
+        "originalPath": "/features/questions"
+      },
+      {
+        "id": "title-variants",
+        "title": "Title A/B Tester",
+        "originalPath": "/features/title-variants"
+      },
+      {
+        "id": "content-calendar",
+        "title": "AI Content Calendar",
+        "originalPath": "/features/content-calendar"
+      },
+      {
+        "id": "episode-topic-cluster",
+        "title": "Topic Clustering",
+        "originalPath": "/features/episode-topic-cluster"
+      },
+      {
+        "id": "cross-promo-finder",
+        "title": "Cross-Promo Finder",
+        "originalPath": "/features/cross-promo-finder"
+      },
+      {
+        "id": "listener-growth-strategy",
+        "title": "Growth Strategy",
+        "originalPath": "/features/listener-growth-strategy"
+      },
+      {
+        "id": "multiplatform-publishing",
+        "title": "Multi-Platform Prep",
+        "originalPath": "/features/multiplatform-publishing"
+      },
+      {
+        "id": "advanced-tools",
+        "title": "Advanced Tools",
+        "originalPath": "/features/advanced-tools"
+      },
+      {
+        "id": "episode-pacing-review",
+        "title": "Episode Pacing Review",
+        "originalPath": "/features/episode-pacing-review"
+      },
+      {
+        "id": "script-generator",
+        "title": "AI Script Generator",
+        "originalPath": "/features/script-generator"
+      },
+      {
+        "id": "topic-suggestions",
+        "title": "AI Topic Suggestions",
+        "originalPath": "/features/topic-suggestions"
+      },
+      {
+        "id": "audience-segmentation",
+        "title": "Audience segmentation",
+        "originalPath": "/features/audience-segmentation"
+      },
+      {
+        "id": "limited-audience-analytics-depth",
+        "title": "limited audience analytics depth",
+        "originalPath": "/features/limited-audience-analytics-depth"
+      },
+      {
+        "id": "chat",
+        "title": "Chat",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "pipeline",
+        "title": "Deck Pipeline",
+        "originalPath": "/features/pipeline"
+      },
+      {
+        "id": "deck",
+        "title": "Generate Deck (Text)",
+        "originalPath": "/features/deck"
+      },
+      {
+        "id": "slide",
+        "title": "Generate Slide",
+        "originalPath": "/features/slide"
+      },
+      {
+        "id": "chart",
+        "title": "Chart Advisor",
+        "originalPath": "/features/chart"
+      },
+      {
+        "id": "export",
+        "title": "Export PPTX",
+        "originalPath": "/features/export"
+      },
+      {
+        "id": "collaborate",
+        "title": "Share/Collaborate",
+        "originalPath": "/features/collaborate"
+      },
+      {
+        "id": "audienceaware-adaptation-ai",
+        "title": "audienceaware adaptation ai",
+        "originalPath": "/features/audienceaware-adaptation-ai"
+      },
+      {
+        "id": "presentation-analytics-viewer-engagement",
+        "title": "presentation analytics viewer engagement",
+        "originalPath": "/features/presentation-analytics-viewer-engagement"
+      },
+      {
+        "id": "ai-surface-area-is-modest-6-endpoints-relative",
+        "title": "ai surface area is modest 6 endpoints relative",
+        "originalPath": "/features/ai-surface-area-is-modest-6-endpoints-relative"
+      },
+      {
+        "id": "generate-prompt",
+        "title": "Generate Prompt",
+        "originalPath": "/features/generate-prompt"
+      },
+      {
+        "id": "generate-scene",
+        "title": "Generate Scene",
+        "originalPath": "/features/generate-scene"
+      },
+      {
+        "id": "collaboration-layer-with-timecode-anchored-review-comments",
+        "title": "collaboration layer with timecode anchored review comments",
+        "originalPath": "/features/collaboration-layer-with-timecode-anchored-review-comments"
+      },
+      {
+        "id": "ai-voice-over-synthesis-endpoint",
+        "title": "ai voice over synthesis endpoint",
+        "originalPath": "/features/ai-voice-over-synthesis-endpoint"
+      },
+      {
+        "id": "ai-coverage-is-comprehensive-for-the-domain",
+        "title": "ai coverage is comprehensive for the domain",
+        "originalPath": "/features/ai-coverage-is-comprehensive-for-the-domain"
+      },
+      {
+        "id": "personas",
+        "title": "Personas",
+        "originalPath": "/features/personas"
+      },
+      {
+        "id": "comments",
+        "title": "Comments",
+        "originalPath": "/features/comments"
+      },
+      {
+        "id": "competitors",
+        "title": "Competitors",
+        "originalPath": "/features/competitors"
+      },
+      {
+        "id": "tsv-reports-0-ai-but-routes-suggest-under-reported",
+        "title": "tsv reports 0 ai but routes suggest under reported",
+        "originalPath": "/features/tsv-reports-0-ai-but-routes-suggest-under-reported"
+      },
+      {
+        "id": "performance-analytics-dashboard",
+        "title": "performance analytics dashboard",
+        "originalPath": "/features/performance-analytics-dashboard"
+      },
+      {
+        "id": "reviews",
+        "title": "Reviews",
+        "originalPath": "/features/reviews"
+      },
+      {
+        "id": "avatars",
+        "title": "AI Avatars",
+        "originalPath": "/features/avatars"
+      },
+      {
+        "id": "sports-highlights",
+        "title": "Sports Highlights",
+        "originalPath": "/features/sports-highlights"
+      },
+      {
+        "id": "broll-suggestions",
+        "title": "B-Roll Suggester",
+        "originalPath": "/features/broll-suggestions"
+      },
+      {
+        "id": "interview-questions",
+        "title": "Interview Q's",
+        "originalPath": "/features/interview-questions"
+      },
+      {
+        "id": "generate-script",
+        "title": "Generate Script",
+        "originalPath": "/features/generate-script"
+      },
+      {
+        "id": "enhance-review",
+        "title": "Enhance Review",
+        "originalPath": "/features/enhance-review"
+      },
+      {
+        "id": "suggest-avatar",
+        "title": "Suggest Avatar",
+        "originalPath": "/features/suggest-avatar"
+      },
+      {
+        "id": "generate-metadata",
+        "title": "Generate Metadata",
+        "originalPath": "/features/generate-metadata"
+      },
+      {
+        "id": "generate-cta",
+        "title": "Generate CTA",
+        "originalPath": "/features/generate-cta"
+      },
+      {
+        "id": "generate-package",
+        "title": "Complete Package",
+        "originalPath": "/features/generate-package"
+      },
+      {
+        "id": "generate-variations",
+        "title": "A/B Variations",
+        "originalPath": "/features/generate-variations"
+      },
+      {
+        "id": "auto-editing-assistant-suggesting-cuts-pacing-adjustments-retakes",
+        "title": "auto editing assistant suggesting cuts pacing adjustments retakes",
+        "originalPath": "/features/auto-editing-assistant-suggesting-cuts-pacing-adjustments-retakes"
+      },
+      {
+        "id": "ai-is-actually-substantial-18-endpoints-tsv-claim",
+        "title": "ai is actually substantial 18 endpoints tsv claim",
+        "originalPath": "/features/ai-is-actually-substantial-18-endpoints-tsv-claim"
+      },
+      {
+        "id": "photoapp-eakarsu",
+        "title": "Photoapp eakarsu work",
+        "originalPath": "/features/photoapp-eakarsu"
+      },
+      {
+        "id": "auto-subtitle",
+        "title": "Auto Subtitle",
+        "originalPath": "/features/auto-subtitle"
+      },
+      {
+        "id": "scene-transitions",
+        "title": "Scene Transitions",
+        "originalPath": "/features/scene-transitions"
+      },
+      {
+        "id": "platform-export-optimizer",
+        "title": "Platform Export",
+        "originalPath": "/features/platform-export-optimizer"
+      },
+      {
+        "id": "usage-analytics",
+        "title": "Usage Analytics",
+        "originalPath": "/features/usage-analytics"
+      },
+      {
+        "id": "review-approval",
+        "title": "Review approval",
+        "originalPath": "/features/review-approval"
+      }
+    ]
+  },
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "vertical-template",
+      "summarize",
+      "article-drafts",
+      "show-notes",
+      "transcripts",
+      "episode-follow-up-email",
+      "guest-research",
+      "speakers",
+      "template-recommend",
+      "speaker-notes-expand",
+      "templaterecommend-for-topic",
+      "video-summaries",
+      "podcast-transcripts",
+      "translate",
+      "suggest-template",
+      "generate-transcript",
+      "collaboration-commenting-on-draft-testimonials"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 20 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "vertical-template",
+        "title": "Vertical Template",
+        "originalPath": "/features/vertical-template"
+      },
+      {
+        "id": "summarize",
+        "title": "Summarize",
+        "originalPath": "/features/summarize"
+      },
+      {
+        "id": "article-drafts",
+        "title": "Article Drafts",
+        "originalPath": "/features/article-drafts"
+      },
+      {
+        "id": "show-notes",
+        "title": "Show Notes",
+        "originalPath": "/features/show-notes"
+      },
+      {
+        "id": "transcripts",
+        "title": "Transcripts",
+        "originalPath": "/features/transcripts"
+      },
+      {
+        "id": "episode-follow-up-email",
+        "title": "Episode Follow-up Email",
+        "originalPath": "/features/episode-follow-up-email"
+      },
+      {
+        "id": "guest-research",
+        "title": "AI Guest Research",
+        "originalPath": "/features/guest-research"
+      },
+      {
+        "id": "speakers",
+        "title": "Speaker Notes",
+        "originalPath": "/features/speakers"
+      },
+      {
+        "id": "template-recommend",
+        "title": "Template Recommender",
+        "originalPath": "/features/template-recommend"
+      },
+      {
+        "id": "speaker-notes-expand",
+        "title": "Speaker Notes Expand",
+        "originalPath": "/features/speaker-notes-expand"
+      },
+      {
+        "id": "templaterecommend-for-topic",
+        "title": "templaterecommend for topic",
+        "originalPath": "/features/templaterecommend-for-topic"
+      },
+      {
+        "id": "video-summaries",
+        "title": "Video Summarizer",
+        "originalPath": "/features/video-summaries"
+      },
+      {
+        "id": "podcast-transcripts",
+        "title": "Podcast Transcriber",
+        "originalPath": "/features/podcast-transcripts"
+      },
+      {
+        "id": "translate",
+        "title": "Translate",
+        "originalPath": "/features/translate"
+      },
+      {
+        "id": "suggest-template",
+        "title": "Suggest Template",
+        "originalPath": "/features/suggest-template"
+      },
+      {
+        "id": "generate-transcript",
+        "title": "Transcript Generator",
+        "originalPath": "/features/generate-transcript"
+      },
+      {
+        "id": "collaboration-commenting-on-draft-testimonials",
+        "title": "collaboration commenting on draft testimonials",
+        "originalPath": "/features/collaboration-commenting-on-draft-testimonials"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "territory-and-rights-validation",
+      "reserve-and-release-validation",
+      "performer-lineup-evidence",
+      "simulcast-usage-control",
+      "territory-eligibility-rules",
+      "episode-quality",
+      "content-quality-feedback",
+      "anomaly-severity-prediction-with-risk-scoring",
+      "analyze-quality"
+    ],
+    "ai": true,
+    "representativeId": "territory-and-rights-validation",
+    "description": "One assistant for 9 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "territory-and-rights-validation",
+        "title": "Territory and rights validation",
+        "originalPath": "/features/territory-and-rights-validation"
+      },
+      {
+        "id": "reserve-and-release-validation",
+        "title": "Reserve and release validation",
+        "originalPath": "/features/reserve-and-release-validation"
+      },
+      {
+        "id": "performer-lineup-evidence",
+        "title": "Performer lineup evidence",
+        "originalPath": "/features/performer-lineup-evidence"
+      },
+      {
+        "id": "simulcast-usage-control",
+        "title": "Simulcast usage control",
+        "originalPath": "/features/simulcast-usage-control"
+      },
+      {
+        "id": "territory-eligibility-rules",
+        "title": "Territory eligibility rules",
+        "originalPath": "/features/territory-eligibility-rules"
+      },
+      {
+        "id": "episode-quality",
+        "title": "Episode Quality",
+        "originalPath": "/features/episode-quality"
+      },
+      {
+        "id": "content-quality-feedback",
+        "title": "Content Quality Feedback",
+        "originalPath": "/features/content-quality-feedback"
+      },
+      {
+        "id": "anomaly-severity-prediction-with-risk-scoring",
+        "title": "anomaly severity prediction with risk scoring",
+        "originalPath": "/features/anomaly-severity-prediction-with-risk-scoring"
+      },
+      {
+        "id": "analyze-quality",
+        "title": "Quality Score",
+        "originalPath": "/features/analyze-quality"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "deduction-and-distribution-fee-audit",
+      "royalty-rate-and-escalator-calculation",
+      "royalty-statement-audit",
+      "payment-and-receivable-reconciliation",
+      "cash-reconciliation",
+      "royalty-forecasting",
+      "revenue-optimizer",
+      "pricing-calculator"
+    ],
+    "ai": true,
+    "representativeId": "deduction-and-distribution-fee-audit",
+    "description": "One assistant for 8 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "deduction-and-distribution-fee-audit",
+        "title": "Deduction and distribution-fee audit",
+        "originalPath": "/features/deduction-and-distribution-fee-audit"
+      },
+      {
+        "id": "royalty-rate-and-escalator-calculation",
+        "title": "Royalty rate and escalator calculation",
+        "originalPath": "/features/royalty-rate-and-escalator-calculation"
+      },
+      {
+        "id": "royalty-statement-audit",
+        "title": "Royalty statement audit",
+        "originalPath": "/features/royalty-statement-audit"
+      },
+      {
+        "id": "payment-and-receivable-reconciliation",
+        "title": "Payment and receivable reconciliation",
+        "originalPath": "/features/payment-and-receivable-reconciliation"
+      },
+      {
+        "id": "cash-reconciliation",
+        "title": "Cash reconciliation",
+        "originalPath": "/features/cash-reconciliation"
+      },
+      {
+        "id": "royalty-forecasting",
+        "title": "AI Royalty Forecasting",
+        "originalPath": "/features/royalty-forecasting"
+      },
+      {
+        "id": "revenue-optimizer",
+        "title": "AI Revenue Optimizer",
+        "originalPath": "/features/revenue-optimizer"
+      },
+      {
+        "id": "pricing-calculator",
+        "title": "AI Pricing",
+        "originalPath": "/features/pricing-calculator"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "public-performance-matching",
+      "society-statement-matching",
+      "engagement-prediction",
+      "predictive-content-roi-scoring",
+      "plagiarism-detection",
+      "contract-analysis",
+      "market-trends",
+      "sampling-detection",
+      "licensing-recommender",
+      "optimization",
+      "segment-optimize",
+      "send-time-optimize",
+      "subscriber-prediction",
+      "insights",
+      "competitive",
+      "source-match",
+      "headline",
+      "readability",
+      "credibility",
+      "style-analyzer",
+      "computer-vision-photo-analysis",
+      "guest-fit-score",
+      "competitor-analysis",
+      "recommend",
+      "trend-detector",
+      "recommend-personalized-content-recommenda",
+      "audience-analysis-adaptation",
+      "data-visualization-recommender",
+      "analysis",
+      "format-clip-optimizer",
+      "format-specific-clip-optimizer-for-platform-tailored-exports",
+      "ai-driven-highlight-detection-endpoint-frontend-stub-exists",
+      "ai-powered-subtitle-caption-optimization-endpoint",
+      "ai-scene-change-detection-backend",
+      "analyze-prompt",
+      "style-recommend",
+      "video-editing-suggestions-recommending-cuts-transitions",
+      "viral-score-prediction-estimating-content-virality",
+      "ai-driven-style-recommendation",
+      "camera-health-prediction-forecasting-device-failures",
+      "vision-video-frame-ml-analysis-focused-on",
+      "ctas",
+      "viral-predictions",
+      "trends",
+      "viral-content-predictor-scoring-on-hooks-trends-length",
+      "multi-platform-optimizer-generating-platform-specific-versions",
+      "trend-forecaster-predicting-emerging-trends-1-2-weeks-ahead",
+      "content-gap-analyzer-surfacing-opportunities-from-competitor-data",
+      "vision-based-thumbnail-scoring",
+      "analyze-emotion",
+      "emotional-tone-and-body-language-analysis-for-authenticity-scoring",
+      "vision-based-body-language-analysis-beyond-emotion",
+      "music-recommendation",
+      "performance-predictor",
+      "music-recommender",
+      "engagement-predictor"
+    ],
+    "ai": true,
+    "representativeId": "public-performance-matching",
+    "description": "One assistant for 56 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "public-performance-matching",
+        "title": "Public performance matching",
+        "originalPath": "/features/public-performance-matching"
+      },
+      {
+        "id": "society-statement-matching",
+        "title": "Society statement matching",
+        "originalPath": "/features/society-statement-matching"
+      },
+      {
+        "id": "engagement-prediction",
+        "title": "Engagement prediction",
+        "originalPath": "/features/engagement-prediction"
+      },
+      {
+        "id": "predictive-content-roi-scoring",
+        "title": "Predictive content roi scoring",
+        "originalPath": "/features/predictive-content-roi-scoring"
+      },
+      {
+        "id": "plagiarism-detection",
+        "title": "AI Plagiarism Detection",
+        "originalPath": "/features/plagiarism-detection"
+      },
+      {
+        "id": "contract-analysis",
+        "title": "AI Contract Analysis",
+        "originalPath": "/features/contract-analysis"
+      },
+      {
+        "id": "market-trends",
+        "title": "AI Market Trends",
+        "originalPath": "/features/market-trends"
+      },
+      {
+        "id": "sampling-detection",
+        "title": "AI Sampling Detection",
+        "originalPath": "/features/sampling-detection"
+      },
+      {
+        "id": "licensing-recommender",
+        "title": "AI Licensing Recommender",
+        "originalPath": "/features/licensing-recommender"
+      },
+      {
+        "id": "optimization",
+        "title": "AI Optimization",
+        "originalPath": "/features/optimization"
+      },
+      {
+        "id": "segment-optimize",
+        "title": "Segment Optimizer",
+        "originalPath": "/features/segment-optimize"
+      },
+      {
+        "id": "send-time-optimize",
+        "title": "Send Time Optimizer",
+        "originalPath": "/features/send-time-optimize"
+      },
+      {
+        "id": "subscriber-prediction",
+        "title": "Subscriber Prediction",
+        "originalPath": "/features/subscriber-prediction"
+      },
+      {
+        "id": "insights",
+        "title": "AI Insights",
+        "originalPath": "/features/insights"
+      },
+      {
+        "id": "competitive",
+        "title": "Story Competitive Analysis",
+        "originalPath": "/features/competitive"
+      },
+      {
+        "id": "source-match",
+        "title": "Source Matching",
+        "originalPath": "/features/source-match"
+      },
+      {
+        "id": "headline",
+        "title": "Headline Optimizer",
+        "originalPath": "/features/headline"
+      },
+      {
+        "id": "readability",
+        "title": "Readability Scorer",
+        "originalPath": "/features/readability"
+      },
+      {
+        "id": "credibility",
+        "title": "Source Credibility Scorer",
+        "originalPath": "/features/credibility"
+      },
+      {
+        "id": "style-analyzer",
+        "title": "Style Analyzer",
+        "originalPath": "/features/style-analyzer"
+      },
+      {
+        "id": "computer-vision-photo-analysis",
+        "title": "Computer vision photo analysis",
+        "originalPath": "/features/computer-vision-photo-analysis"
+      },
+      {
+        "id": "guest-fit-score",
+        "title": "Guest Fit Score",
+        "originalPath": "/features/guest-fit-score"
+      },
+      {
+        "id": "competitor-analysis",
+        "title": "Competitor Analysis",
+        "originalPath": "/features/competitor-analysis"
+      },
+      {
+        "id": "recommend",
+        "title": "Recommend",
+        "originalPath": "/features/recommend"
+      },
+      {
+        "id": "trend-detector",
+        "title": "Trend detector",
+        "originalPath": "/features/trend-detector"
+      },
+      {
+        "id": "recommend-personalized-content-recommenda",
+        "title": "recommend personalized content recommenda",
+        "originalPath": "/features/recommend-personalized-content-recommenda"
+      },
+      {
+        "id": "audience-analysis-adaptation",
+        "title": "audience analysis adaptation",
+        "originalPath": "/features/audience-analysis-adaptation"
+      },
+      {
+        "id": "data-visualization-recommender",
+        "title": "data visualization recommender",
+        "originalPath": "/features/data-visualization-recommender"
+      },
+      {
+        "id": "analysis",
+        "title": "AI Analysis",
+        "originalPath": "/features/analysis"
+      },
+      {
+        "id": "format-clip-optimizer",
+        "title": "Clip Optimizer",
+        "originalPath": "/features/format-clip-optimizer"
+      },
+      {
+        "id": "format-specific-clip-optimizer-for-platform-tailored-exports",
+        "title": "format specific clip optimizer for platform tailored exports",
+        "originalPath": "/features/format-specific-clip-optimizer-for-platform-tailored-exports"
+      },
+      {
+        "id": "ai-driven-highlight-detection-endpoint-frontend-stub-exists",
+        "title": "ai driven highlight detection endpoint frontend stub exists",
+        "originalPath": "/features/ai-driven-highlight-detection-endpoint-frontend-stub-exists"
+      },
+      {
+        "id": "ai-powered-subtitle-caption-optimization-endpoint",
+        "title": "ai powered subtitle caption optimization endpoint",
+        "originalPath": "/features/ai-powered-subtitle-caption-optimization-endpoint"
+      },
+      {
+        "id": "ai-scene-change-detection-backend",
+        "title": "ai scene change detection backend",
+        "originalPath": "/features/ai-scene-change-detection-backend"
+      },
+      {
+        "id": "analyze-prompt",
+        "title": "Analyze Prompt",
+        "originalPath": "/features/analyze-prompt"
+      },
+      {
+        "id": "style-recommend",
+        "title": "Style recommend",
+        "originalPath": "/features/style-recommend"
+      },
+      {
+        "id": "video-editing-suggestions-recommending-cuts-transitions",
+        "title": "video editing suggestions recommending cuts transitions",
+        "originalPath": "/features/video-editing-suggestions-recommending-cuts-transitions"
+      },
+      {
+        "id": "viral-score-prediction-estimating-content-virality",
+        "title": "viral score prediction estimating content virality",
+        "originalPath": "/features/viral-score-prediction-estimating-content-virality"
+      },
+      {
+        "id": "ai-driven-style-recommendation",
+        "title": "ai driven style recommendation",
+        "originalPath": "/features/ai-driven-style-recommendation"
+      },
+      {
+        "id": "camera-health-prediction-forecasting-device-failures",
+        "title": "camera health prediction forecasting device failures",
+        "originalPath": "/features/camera-health-prediction-forecasting-device-failures"
+      },
+      {
+        "id": "vision-video-frame-ml-analysis-focused-on",
+        "title": "vision video frame ml analysis focused on",
+        "originalPath": "/features/vision-video-frame-ml-analysis-focused-on"
+      },
+      {
+        "id": "ctas",
+        "title": "CTA Optimizer",
+        "originalPath": "/features/ctas"
+      },
+      {
+        "id": "viral-predictions",
+        "title": "Viral Predictor",
+        "originalPath": "/features/viral-predictions"
+      },
+      {
+        "id": "trends",
+        "title": "Trends",
+        "originalPath": "/features/trends"
+      },
+      {
+        "id": "viral-content-predictor-scoring-on-hooks-trends-length",
+        "title": "viral content predictor scoring on hooks trends length",
+        "originalPath": "/features/viral-content-predictor-scoring-on-hooks-trends-length"
+      },
+      {
+        "id": "multi-platform-optimizer-generating-platform-specific-versions",
+        "title": "multi platform optimizer generating platform specific versions",
+        "originalPath": "/features/multi-platform-optimizer-generating-platform-specific-versions"
+      },
+      {
+        "id": "trend-forecaster-predicting-emerging-trends-1-2-weeks-ahead",
+        "title": "trend forecaster predicting emerging trends 1 2 weeks ahead",
+        "originalPath": "/features/trend-forecaster-predicting-emerging-trends-1-2-weeks-ahead"
+      },
+      {
+        "id": "content-gap-analyzer-surfacing-opportunities-from-competitor-data",
+        "title": "content gap analyzer surfacing opportunities from competitor data",
+        "originalPath": "/features/content-gap-analyzer-surfacing-opportunities-from-competitor-data"
+      },
+      {
+        "id": "vision-based-thumbnail-scoring",
+        "title": "vision based thumbnail scoring",
+        "originalPath": "/features/vision-based-thumbnail-scoring"
+      },
+      {
+        "id": "analyze-emotion",
+        "title": "Emotion Analysis",
+        "originalPath": "/features/analyze-emotion"
+      },
+      {
+        "id": "emotional-tone-and-body-language-analysis-for-authenticity-scoring",
+        "title": "emotional tone and body language analysis for authenticity scoring",
+        "originalPath": "/features/emotional-tone-and-body-language-analysis-for-authenticity-scoring"
+      },
+      {
+        "id": "vision-based-body-language-analysis-beyond-emotion",
+        "title": "vision based body language analysis beyond emotion",
+        "originalPath": "/features/vision-based-body-language-analysis-beyond-emotion"
+      },
+      {
+        "id": "music-recommendation",
+        "title": "Music Recommendation",
+        "originalPath": "/features/music-recommendation"
+      },
+      {
+        "id": "performance-predictor",
+        "title": "Performance Predictor",
+        "originalPath": "/features/performance-predictor"
+      },
+      {
+        "id": "music-recommender",
+        "title": "Music recommender",
+        "originalPath": "/features/music-recommender"
+      },
+      {
+        "id": "engagement-predictor",
+        "title": "Engagement predictor",
+        "originalPath": "/features/engagement-predictor"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "api-ai-generate-story",
+      "api-ai-generate-character",
+      "images",
+      "music-projects",
+      "music-review",
+      "history",
+      "angles",
+      "feedback",
+      "generate-storyboard",
+      "approval-workflow-for-video-review",
+      "ideas",
+      "multimodal-script-to-storyboard-generator",
+      "music-matches",
+      "analyze-highlights"
+    ],
+    "ai": true,
+    "representativeId": "api-ai-generate-story",
+    "description": "One assistant for 14 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "api-ai-generate-story",
+        "title": "AI Story Generator",
+        "originalPath": "/features/api-ai-generate-story"
+      },
+      {
+        "id": "api-ai-generate-character",
+        "title": "AI Character Designer",
+        "originalPath": "/features/api-ai-generate-character"
+      },
+      {
+        "id": "images",
+        "title": "Images",
+        "originalPath": "/features/images"
+      },
+      {
+        "id": "music-projects",
+        "title": "Music projects",
+        "originalPath": "/features/music-projects"
+      },
+      {
+        "id": "music-review",
+        "title": "Music rights & moderation review",
+        "originalPath": "/features/music-review"
+      },
+      {
+        "id": "history",
+        "title": "AI History",
+        "originalPath": "/features/history"
+      },
+      {
+        "id": "angles",
+        "title": "Story Angle Generator",
+        "originalPath": "/features/angles"
+      },
+      {
+        "id": "feedback",
+        "title": "Design Feedback",
+        "originalPath": "/features/feedback"
+      },
+      {
+        "id": "generate-storyboard",
+        "title": "Generate Storyboard",
+        "originalPath": "/features/generate-storyboard"
+      },
+      {
+        "id": "approval-workflow-for-video-review",
+        "title": "approval workflow for video review",
+        "originalPath": "/features/approval-workflow-for-video-review"
+      },
+      {
+        "id": "ideas",
+        "title": "Video Ideas",
+        "originalPath": "/features/ideas"
+      },
+      {
+        "id": "multimodal-script-to-storyboard-generator",
+        "title": "multimodal script to storyboard generator",
+        "originalPath": "/features/multimodal-script-to-storyboard-generator"
+      },
+      {
+        "id": "music-matches",
+        "title": "Music Matcher",
+        "originalPath": "/features/music-matches"
+      },
+      {
+        "id": "analyze-highlights",
+        "title": "Video Highlights",
+        "originalPath": "/features/analyze-highlights"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "schedule-analytics-lack-ai-endpoints-for-optimal-posting-tim"
+    ],
+    "ai": true,
+    "representativeId": "schedule-analytics-lack-ai-endpoints-for-optimal-posting-tim",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "schedule-analytics-lack-ai-endpoints-for-optimal-posting-tim",
+        "title": "Schedule analytics lack ai endpoints for optimal posting tim",
+        "originalPath": "/features/schedule-analytics-lack-ai-endpoints-for-optimal-posting-tim"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "seo",
+      "churn-detection",
+      "agentic-campaign-orchestrate",
+      "guest-outreach",
+      "seo-optimizer",
+      "audience-sentiment",
+      "churn-prediction",
+      "churn-prediction-retention",
+      "style-recommendation-engine-by-brand-industry-content-type",
+      "audience-sentiment-analyzer-predicting-comment-sentiment",
+      "analyze-sentiment",
+      "testimonial-campaign-optimizer-recommending-selection-and-ordering",
+      "brand-consistency"
+    ],
+    "ai": true,
+    "representativeId": "seo",
+    "description": "One assistant for 13 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "seo",
+        "title": "SEO Content",
+        "originalPath": "/features/seo"
+      },
+      {
+        "id": "churn-detection",
+        "title": "Churn Detection",
+        "originalPath": "/features/churn-detection"
+      },
+      {
+        "id": "agentic-campaign-orchestrate",
+        "title": "Campaign Orchestrator",
+        "originalPath": "/features/agentic-campaign-orchestrate"
+      },
+      {
+        "id": "guest-outreach",
+        "title": "Guest Outreach",
+        "originalPath": "/features/guest-outreach"
+      },
+      {
+        "id": "seo-optimizer",
+        "title": "AI SEO Optimizer",
+        "originalPath": "/features/seo-optimizer"
+      },
+      {
+        "id": "audience-sentiment",
+        "title": "Audience Sentiment",
+        "originalPath": "/features/audience-sentiment"
+      },
+      {
+        "id": "churn-prediction",
+        "title": "Churn prediction",
+        "originalPath": "/features/churn-prediction"
+      },
+      {
+        "id": "churn-prediction-retention",
+        "title": "churn prediction retention",
+        "originalPath": "/features/churn-prediction-retention"
+      },
+      {
+        "id": "style-recommendation-engine-by-brand-industry-content-type",
+        "title": "style recommendation engine by brand industry content type",
+        "originalPath": "/features/style-recommendation-engine-by-brand-industry-content-type"
+      },
+      {
+        "id": "audience-sentiment-analyzer-predicting-comment-sentiment",
+        "title": "audience sentiment analyzer predicting comment sentiment",
+        "originalPath": "/features/audience-sentiment-analyzer-predicting-comment-sentiment"
+      },
+      {
+        "id": "analyze-sentiment",
+        "title": "Analyze Sentiment",
+        "originalPath": "/features/analyze-sentiment"
+      },
+      {
+        "id": "testimonial-campaign-optimizer-recommending-selection-and-ordering",
+        "title": "testimonial campaign optimizer recommending selection and ordering",
+        "originalPath": "/features/testimonial-campaign-optimizer-recommending-selection-and-ordering"
+      },
+      {
+        "id": "brand-consistency",
+        "title": "Brand Consistency",
+        "originalPath": "/features/brand-consistency"
+      }
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "ai-media-royalty-participation-audit",
+    "name": "Media royalty participation audit",
+    "sourceProject": "ai-media-royalty-participation-audit",
+    "services": []
+  },
+  {
+    "id": "ai-music-neighboring-rights-royalty-recovery",
+    "name": "Music neighboring rights royalty recovery",
+    "sourceProject": "ai-music-neighboring-rights-royalty-recovery",
+    "services": []
+  },
+  {
+    "id": "AIBookPublishingPipeline",
+    "name": "Book publishing pipeline",
+    "sourceProject": "AIBookPublishingPipeline",
+    "services": []
+  },
+  {
+    "id": "AIComicBookGenerator",
+    "name": "Comic book generator",
+    "sourceProject": "AIComicBookGenerator",
+    "services": []
+  },
+  {
+    "id": "AIContentRepurposingEngine",
+    "name": "Content repurposing engine",
+    "sourceProject": "AIContentRepurposingEngine",
+    "services": []
+  },
+  {
+    "id": "AiContentStudio",
+    "name": "Content studio",
+    "sourceProject": "AiContentStudio",
+    "services": []
+  },
+  {
+    "id": "AIMusicGeneration",
+    "name": "Music generation",
+    "sourceProject": "AIMusicGeneration",
+    "services": []
+  },
+  {
+    "id": "AIMusicRightsRoyaltyTracker",
+    "name": "Music rights royalty tracker",
+    "sourceProject": "AIMusicRightsRoyaltyTracker",
+    "services": []
+  },
+  {
+    "id": "AINewsletterGenerator",
+    "name": "Newsletter generator",
+    "sourceProject": "AINewsletterGenerator",
+    "services": []
+  },
+  {
+    "id": "AINewsroomAssistant",
+    "name": "Newsroom assistant",
+    "sourceProject": "AINewsroomAssistant",
+    "services": []
+  },
+  {
+    "id": "AIPhotographyBusinessManager",
+    "name": "Photography business manager",
+    "sourceProject": "AIPhotographyBusinessManager",
+    "services": []
+  },
+  {
+    "id": "AIPodcastProducer",
+    "name": "Podcast producer",
+    "sourceProject": "AIPodcastProducer",
+    "services": []
+  },
+  {
+    "id": "AIRecommendationsforbroadcasters",
+    "name": "Recommendationsforbroadcasters",
+    "sourceProject": "AIRecommendationsforbroadcasters",
+    "services": []
+  },
+  {
+    "id": "AISlideDeckGenerator",
+    "name": "Slide deck generator",
+    "sourceProject": "AISlideDeckGenerator",
+    "services": []
+  },
+  {
+    "id": "AiSplitVideos",
+    "name": "Split videos",
+    "sourceProject": "AiSplitVideos",
+    "services": []
+  },
+  {
+    "id": "AIVideoGeneration",
+    "name": "Video generation",
+    "sourceProject": "AIVideoGeneration",
+    "services": []
+  },
+  {
+    "id": "AIVideoIntelligence",
+    "name": "Video intelligence",
+    "sourceProject": "AIVideoIntelligence",
+    "services": []
+  },
+  {
+    "id": "AiVideoScriptContent",
+    "name": "Video script content",
+    "sourceProject": "AiVideoScriptContent",
+    "services": []
+  },
+  {
+    "id": "AIVideoTestimonialCreator",
+    "name": "Video testimonial creator",
+    "sourceProject": "AIVideoTestimonialCreator",
+    "services": []
+  },
+  {
+    "id": "MontageForge",
+    "name": "Montage forge",
+    "sourceProject": "MontageForge",
+    "services": []
+  },
+  {
+    "id": "photoapp-eakarsu",
+    "name": "Photoapp eakarsu",
+    "sourceProject": "photoapp-eakarsu",
+    "services": []
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "sourceProject": "runway",
+    "services": []
+  },
+  {
+    "id": "VoiceForge",
+    "name": "Voice forge",
+    "sourceProject": "VoiceForge",
+    "services": []
+  }
+]
